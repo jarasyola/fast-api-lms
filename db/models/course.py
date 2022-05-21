@@ -3,6 +3,7 @@ import enum
 
 from sqlalchemy import Enum, Column, ForeignKey, Integer,String, Text, Boolean
 from sqlalchemy.orm import relationship
+#from sqlalchemy_utils import URLType
 from sqlalchemy_utils import URLType
 
 from ..db_setup import Base

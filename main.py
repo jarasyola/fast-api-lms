@@ -8,6 +8,8 @@ from db.models import user,course
 # DB creation
 user.Base.metadata.create_all(bind=engine)
 course.Base.metadata.create_all(bind=engine)
+#models.Base.metadata.create_all(bind=engine)
+
 
 app = FastAPI(
     title="Fast API LMS",
